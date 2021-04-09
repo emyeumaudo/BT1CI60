@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.logo {
+  width: 22px;
+}
+
+#container {
+  width: 550px;
+  margin: 100px 500px;
+  background-color: azure;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+h1,
+#social,
+#account {
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+/**/
+
+#tank {
+  width: 65%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#social button {
+  width: 160px;
+  height: 45px;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.fb {
+  background-color: rgb(32, 62, 126);
+  color: #fff;
+}
+.fab {
+  font-size: 20px;
+}
+#account {
+  width: 100%;
+}
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#account p {
+  margin-bottom: 20px;
+}
+#account button {
+  width: 100%;
+  height: 40px;
+  background-color: #191919;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+a {
+  color: grey;
+}
+p {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
